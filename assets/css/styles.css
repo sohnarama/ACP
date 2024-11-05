@@ -1,0 +1,195 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+.alert{
+  font-size: 14px;
+}
+
+/* button{
+  width: 80%;
+} */
+.container {
+  max-width: 500px;
+  /* margin: 50px auto; */
+  /* margin: 0.5% auto; */
+  /* margin-top: 0.5%; */
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  width: 50%;
+  text-align: center;
+}
+.option {
+  max-width: 50%;
+  width: 10%;
+  display: inline-block;
+  margin: 10px;
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid #3777b0;
+  color: #3777b0;
+  background-color: transparent;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.optionEtu {
+  max-width: 50%;
+  width: 10%;
+  display: inline-block;
+  margin: 10px;
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid #3777b0;
+  color: #3777b0;
+  background-color: transparent;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.custom-btn-size {
+  padding: 5px 10px; /* Ajuste la taille du bouton */
+  font-size: 14px;   /* Diminue la taille du texte */
+  height: 38px;      /* Ajuste la hauteur pour s'adapter aux champs */
+}
+.option:hover {
+  background-color: #3777b0;
+  /* animation: scale 0.8s ease; */
+  transform: scale(1.2); /* Agrandir le bouton de 5% lors du survol */
+  color: white;
+  font-weight: bold;
+}
+.optionEtu:hover {
+  background-color: #3777b0;
+  /* animation: scale 0.8s ease; */
+  transform: scale(1.2); /* Agrandir le bouton de 5% lors du survol */
+  color: white;
+  font-weight: bold;
+}
+.archive {
+  max-width: 50%;
+  width: 10%;
+  display: inline-block;
+  cursor: not-allowed;
+  display: inline-block;
+  margin: 10px;
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  vertical-align: middle;
+  border: 1px solid #3777b0;
+  color: white; 
+  background-color: red;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.archive:hover {
+  background-color: red;
+  /* animation: scale 0.8s ease; */
+  color: white;
+}
+.option.disabled {
+  color: #ffffff; /* Couleur de texte grise pour les options désactivées */
+  /* Désactiver les clics */
+  /* pointer-events: none;  */
+  cursor: not-allowed;
+  background-color: green !important;
+}
+.optionEtu.disabled {
+  color: #ffffff; /* Couleur de texte grise pour les options désactivées */
+  /* Désactiver les clics */
+  /* pointer-events: none;  */
+  cursor: not-allowed;
+  background-color: red;
+}
+a {
+  text-decoration: none;
+}
+
+/* Style personnalisé pour la case à cocher */
+.option input[type="checkbox"] {
+  /* Cacher la case à cocher par défaut */
+  display: none;
+}
+.optionEtu input[type="radio"] {
+  /* Cacher la case à cocher par défaut */
+  display: none;
+}
+span {
+  color: red !important;
+  font-size: 20px;
+}
+a {
+  text-decoration: none !important;
+}
+li,
+a {
+  /* font-weight:600; */
+  font-size: 16px !important;
+}
+.form-select {
+  font-size: 20px !important;
+}
+.form-control {
+  height: 30px;
+}
+/* .d-flex button{
+  height: 30px;
+} */
+.s-homedesigne {
+  width: 100%;
+  background-color: #3777b0;
+  display: table;
+}
+p.lead {
+  font-family: "montserrat-regular", sans-serif;
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 3.6rem;
+  color: #ffffff;
+  text-align: center;
+  margin: 80px 0;
+}
+
+strong {
+  text-align: center;
+  margin-bottom: 1%;
+  font-size: 20px;
+  color: darkslategray;
+}
+.login-error{
+  color: red;
+  font-size: 18px;
+  margin-left: 10%;
+}
+
+.site-logo img{
+  width: 100%;
+}
